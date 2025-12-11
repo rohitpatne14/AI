@@ -5,7 +5,7 @@ Local-only demo with two backend microservices and a React frontend:
 - `user-service` (protected profile/dashboard data, JWT verification)
 - `frontend` (React + Vite UI with protected dashboard)
 
-Passwords are hashed with bcrypt, JWTs expire in 1 hour, and CORS is restricted to `http://localhost:5173` by default.
+Passwords are hashed with bcrypt, JWTs expire in 3 days, and CORS is restricted to `http://localhost:5173` by default.
 
 ## Tech Stack
 - React + Vite for the UI.

@@ -76,8 +76,8 @@ JWT_SECRET=<same as above>
 ALLOW_ORIGIN=http://localhost:5173
 
 # in frontend/.env (copy from env.example)
-VITE_AUTH_URL=http://localhost:4000
-VITE_USER_URL=http://localhost:4001
+VITE_AUTH_URL=http://localhost:4001
+VITE_USER_URL=http://localhost:4002
 ```
 
 3) Run services (separate terminals)
